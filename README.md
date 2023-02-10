@@ -15,10 +15,11 @@ The differences between asynchronous and synchronous include:
        
       1. Async is multi-thread, which means operations or programs can run in parallel. 
       2. Sync is single-thread, so only one operation or program will run at a time.
-      3. Async is non-blocking, which means it will send multiple requests to a server. 	Sync is blocking — it will only send the server one request at a time and 	will wait for that request to be answered by the server.
+      3. Async is non-blocking, which means it will send multiple requests to a server. 	
+         Sync is blocking — it will only send the server one request at a time and 	will wait for that request to be answered by the server.
       4. Async increases throughput because multiple operations can run at the same time. Sync is slower and more methodical.
       
-      Differences aside, asynchronous and synchronous methods both offer advantages, but for different stakeholders: 
+  Differences aside, asynchronous and synchronous methods both offer advantages, but for different stakeholders: 
       
       Async for users and sync for developers.
 
